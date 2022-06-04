@@ -11,9 +11,10 @@ Simple MVVM app showing a list of restaurant and it's details using YELP CHAT AP
 
 *Please click the image below to enlarge.*
 
-<img src="https://github.com/cheetahmail007/YelpChatApp/blob/master/app/src/main/java/com/example/yelpsearchapplication/assets/app_flow.gif" height="600" width="300" hspace="40">
-<img src="https://github.com/cheetahmail007/YelpChatApp/blob/master/app/src/main/java/com/example/yelpsearchapplication/assets/Screenshot_20220425_110200.png" height="600" width="300" hspace="40">
-<img src="https://github.com/cheetahmail007/YelpChatApp/blob/master/app/src/main/java/com/example/yelpsearchapplication/assets/Screenshot_20220425_110253.png" height="600" width="300" hspace="40">
+<img src="[https://github.com/cheetahmail007/YelpChatApp/blob/master/app/src/main/java/com/example/yelpsearchapplication/assets/app_flow.gif](https://github.com/cheetahmail007/YelpChatApp/blob/master/app/src/main/java/com/example/yelpsearchapplication/assets/app_flow.gif)" height="600" width="300" hspace="40">
+<img src="https://github.com/cheetahmail007/YelpChatApp/blob/master/app/src/main/java/com/example/yelpsearchapplication/assets/1.png" height="600" width="300" hspace="40">
+<img src="https://github.com/cheetahmail007/YelpChatApp/blob/master/app/src/main/java/com/example/yelpsearchapplication/assets/2.png" height="600" width="300" hspace="40">
+<img src="https://github.com/cheetahmail007/YelpChatApp/blob/master/app/src/main/java/com/example/yelpsearchapplication/assets/3.png" height="600" width="300" hspace="40">
 
 
 ## Built With 🛠
