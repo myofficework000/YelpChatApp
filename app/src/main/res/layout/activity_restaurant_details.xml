@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.yelpsearchapplication.viewmodels.RestaurantDetailsViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".views.RestaurantDetailsActivity"
+        android:background="#C0FAFA">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/restaurant_details_image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/restaurant_details_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{viewModel.restaurantDetailsLiveData.name}"
+            android:textColor="#A50909"
+            android:textSize="25sp"
+            app:layout_constraintTop_toBottomOf="@id/restaurant_details_image_iv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/restaurant_details_rating_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{@string/category(viewModel.restaurantCategory)}"
+            android:textColor="#003507"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/restaurant_details_name_tv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/restaurant_details_categories_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{@string/rating_data(`Rating: `,viewModel.restaurantDetailsLiveData.rating)}"
+            android:textColor="#003507"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/restaurant_details_rating_tv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/restaurant_details_price_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{viewModel.restaurantDetailsLiveData.price}"
+            android:textColor="#003507"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/restaurant_details_categories_tv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

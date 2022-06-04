@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="custom_card_elevation">10dp</dimen>
+    <dimen name="custom_card_margin">10dp</dimen>
+</resources>
